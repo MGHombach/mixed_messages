@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Horoscopes</title>
     <link rel="stylesheet" href="./resources/CSS/index.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
     <div class="navbar">
         <nav>
             <ul>
-                <li><a href="">Horoscope</a></li>
-                <li><a href="">Learn more!</a></li>
+                <li><a href="./index.html" class="maroon">Horoscope</a></li>
+                <li><a href="./learnmore.html">Learn more!</a></li>
             </ul>
         </nav>
     </div>
@@ -28,7 +28,7 @@
         <div><span id="selections">Horoscopes!</span></div>
 
         <label for="Zodiacs">Please select your zodiac</label>
-        <select name="Zodiacs" id="Zodiacs">
+        <select name="Zodiacs" id="Zodiacs" required>
             <option value="Aquarius">Aquarius</option>
             <option value="Pisces">Pisces</option>
             <option value="Aries">Aries</option>
@@ -43,6 +43,11 @@
             <option value="Capricorn">Capricorn</option>
         </select>
         <input type="submit" for="Zodiacs">
+    </div>
+
+    <!-- Horoscope generated -->
+    <div>
+        
     </div>
     <!-- randomized section -->
     <div class="random-section">

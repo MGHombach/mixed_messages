@@ -20,34 +20,54 @@
     font-size: large;
 }
 
-.banner{
+.banner {
     background-color: rgb(36, 5, 5);
     text-align: center;
-    padding: 200px 0;
+    padding: 150px 0;
     margin-top: 50px;
     color: rgb(218, 213, 213);
+    
 }
 
-a.maroon {
-    color: rgb(50, 3, 3);
+.sign-info{
+    padding: 60px;
 }
 
-#selections {
-    color: rgb(36, 5, 5);
-    font-size: 30px;
+
+.sign-info li{
+    text-decoration: none;
+    display: inline-table;
+    padding: 10px 50px;
+
+}
+
+.sign-info li span{
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.titles{
+    padding-left: 30px;
     font-weight: bold;
 }
 
-.selectors-section {
-    background-color: rgb(218, 213, 213);
-    padding-left: 30px;
-    padding: 150px;
+.number-info {
+    padding-right: 160px;
+    padding-left: 40px;
 }
 
-.random-section {
-    width: 100%;
-
+#numerology {
+    height: 500px;
+    width: 500px;
 }
-.titles{
-    font-weight: 400;
+
+#color-chart{
+    height: 500px;
+    width: 500px;
+}
+
+#image-sections{
+    display: flex;
+    padding: 80px;
 }
