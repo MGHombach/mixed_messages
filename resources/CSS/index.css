@@ -39,9 +39,18 @@ a.maroon {
 }
 
 .selectors-section {
-    background-color: rgb(218, 213, 213);
+    
     padding-left: 30px;
     padding: 150px;
+}
+
+#horoscope-generator-area {
+    display: flex;
+    background-color: rgb(218, 213, 213);
+}
+
+#horo-generator{
+
 }
 
 .random-section {
